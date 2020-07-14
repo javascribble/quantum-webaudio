@@ -1,10 +1,13 @@
-import { Quantum, define } from '../../references/quantum.js';
-import { webaudio } from '../templates/webaudio.js';
+import { Components } from '../../references/quantum.js';
 
-export class WebAudio extends Quantum {
+export class WebAudio extends Components {
     constructor() {
-        super(webaudio);
+        super();
     }
+
+    static template = document.querySelector('#quantum-webaudio');
+
+    static attributes = [];
 }
 
-define(WebAudio);
+customElements.define('quantum-webaudio', WebAudio);
