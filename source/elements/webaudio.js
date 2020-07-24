@@ -1,14 +1,11 @@
-import { Component, template } from '../../references/quantum.js';
 import html from '../templates/webaudio.js';
 
-export class WebAudio extends Components {
+export class WebAudio extends quantum.Components {
     constructor() {
         super();
     }
 
-    static template = template(html);
-
-    static attributes = [];
+    static template = quantum.template(html);
 }
 
-customElements.define('quantum-webaudio', WebAudio);
+quantum.define('quantum-webaudio', WebAudio);
