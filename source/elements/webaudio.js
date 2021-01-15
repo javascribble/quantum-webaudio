@@ -1,4 +1,3 @@
-import { Component, template, define } from '../import.js';
 import html from '../templates/webaudio.js';
 
 export class WebAudio extends Component {
