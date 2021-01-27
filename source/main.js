@@ -1,3 +1,3 @@
 import * as webaudio from './elements/webaudio.js';
 
-Object.assign(window, webaudio);
+Object.assign(quantum, webaudio);
