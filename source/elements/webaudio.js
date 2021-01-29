@@ -1,13 +1,9 @@
 import html from '../templates/webaudio.js';
 
-const { Component, template, define } = quantum;
-
-export class WebAudio extends Component {
+export class WebAudio extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-webaudio', WebAudio);
+WebAudio.define('quantum-webaudio', html);

@@ -1,3 +1,3 @@
-import * as webaudio from './elements/webaudio.js';
+import { WebAudio } from './elements/webaudio.js';
 
-Object.assign(quantum, webaudio);
+Quantum.WebAudio = WebAudio;
