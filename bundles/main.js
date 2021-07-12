@@ -1,1 +1,1 @@
-export { WebAudio as default } from '../source/elements/webaudio.js';
+export * from '../source/elements/webaudio.js';
